@@ -1,12 +1,13 @@
-function verifikasiPassword() {
+    function verifikasiPassword() {
   var password = prompt("Masukkan password:");
   var passwordBenar = "juguagan";
-  
+
   if (password === passwordBenar) {
     document.getElementById("konten").style.display = "block";
   } else {
     alert("Password salah. Mengalihkan ke halaman daftar 55five");
-    window.location.href = "http://170.33.96.215:55/#/register?r_code=ClEgG1195363";
+    window.location.href =
+      "http://170.33.96.215:55/#/register?r_code=ClEgG1195363";
   }
 }
     var data = [
@@ -43,50 +44,49 @@ function verifikasiPassword() {
       { sebelumnya: "KBKKB", prediksi_pasangan: "Kx1 Kx2 Bx5 Bx11 Bx23 Kx49 Kx102 Kx210 Bx437", catatan: "pasangan terjauh biasanya di Kx102" },
       { sebelumnya: "BKBBK", prediksi_pasangan: "Bx1 Bx2 Kx5 Kx11 Kx23 Bx49 Bx102 Bx210 Kx437", catatan: "pasangan terjauh biasanya di Bx102" },
     ];
-    function cariData() {
-      var kataKunci = document.getElementById("kataKunci").value.toLowerCase();
 
-      var hasilPencarian = data.filter(function (item) {
-        return (
-          item.sebelumnya.toLowerCase() === kataKunci
-        );
-      });
+function cariData() {
+  var kataKunci = document.getElementById("kataKunci").value.toLowerCase();
 
-      var container = document.getElementById("hasilPencarian");
-      container.innerHTML = "";
+  var hasilPencarian = data.filter(function (item) {
+    return item.sebelumnya.toLowerCase() === kataKunci;
+  });
 
-      hasilPencarian.forEach(function (item) {
-        var div = document.createElement("div");
-        var table = document.createElement("table");
+  var container = document.getElementById("hasilPencarian");
+  container.innerHTML = "";
 
-        var row1 = document.createElement("tr");
-        var th1 = document.createElement("th");
-        th1.innerText = "Sebelumnya";
-        var td1 = document.createElement("td");
-        td1.innerText = item.sebelumnya;
-        row1.appendChild(th1);
-        row1.appendChild(td1);
+  hasilPencarian.forEach(function (item) {
+    var div = document.createElement("div");
+    var table = document.createElement("table");
 
-        var row2 = document.createElement("tr");
-        var th2 = document.createElement("th");
-        th2.innerText = "Prediksi Pasangan";
-        var td2 = document.createElement("td");
-        td2.innerText = item.prediksi_pasangan;
-        row2.appendChild(th2);
-        row2.appendChild(td2);
+    var row1 = document.createElement("tr");
+    var th1 = document.createElement("th");
+    th1.innerText = "Sebelumnya";
+    var td1 = document.createElement("td");
+    td1.innerText = item.sebelumnya;
+    row1.appendChild(th1);
+    row1.appendChild(td1);
 
-        var row3 = document.createElement("tr");
-        var th3 = document.createElement("th");
-        th3.innerText = "Catatan";
-        var td3 = document.createElement("td");
-        td3.innerText = item.catatan;
-        row3.appendChild(th3);
-        row3.appendChild(td3);
+    var row2 = document.createElement("tr");
+    var th2 = document.createElement("th");
+    th2.innerText = "Prediksi Pasangan";
+    var td2 = document.createElement("td");
+    td2.innerText = item.prediksi_pasangan;
+    row2.appendChild(th2);
+    row2.appendChild(td2);
 
-        table.appendChild(row1);
-        table.appendChild(row2);
-        table.appendChild(row3);
-        div.appendChild(table);
-        container.appendChild(div);
-      });
-    }
+    var row3 = document.createElement("tr");
+    var th3 = document.createElement("th");
+    th3.innerText = "Catatan";
+    var td3 = document.createElement("td");
+    td3.innerText = item.catatan;
+    row3.appendChild(th3);
+    row3.appendChild(td3);
+
+    table.appendChild(row1);
+    table.appendChild(row2);
+    table.appendChild(row3);
+    div.appendChild(table);
+    container.appendChild(div);
+  });
+}
