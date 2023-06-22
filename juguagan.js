@@ -1,11 +1,4 @@
 function verifikasiPassword() {
-var password = prompt("Masukkan password:"); var passwordBenar = "juguagan";
-if (password === passwordBenar) {
-document.getElementById("konten").style.display = "block"; 
-} else {
-alert("Password salah. Halaman akan ditutup."); window.close(); } }
-
-function verifikasiPassword() {
   var password = prompt("Masukkan password:");
   var passwordBenar = "juguagan";
   
