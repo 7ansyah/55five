@@ -1,9 +1,8 @@
-    function verifikasiPassword() {
-  var password = prompt("Masukkan password:");
-  var passwordBenar = "juguagan";
-
-  if (password === passwordBenar) {
-    document.getElementById("konten").style.display = "block";
+function verifikasiPassword() {
+  var password = prompt("Masukkan kata sandi:");
+  // Tambahkan logika untuk memverifikasi kata sandi di sini
+  if (password === "juguagan") {
+    alert("Verifikasi kata sandi berhasil!");
   } else {
     alert("Password salah. Mengalihkan ke halaman daftar 55five");
     window.location.href =
