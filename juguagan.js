@@ -28,7 +28,7 @@ function verifikasiPassword() {
       { sebelumnya: "BBKBK", prediksi_pasangan: "Bx1 Bx2 Kx5 Kx11 Kx23 Bx49 Bx102 Bx210 Kx437", catatan: "pasangan terjauh biasanya di Bx210" },
       { sebelumnya: "KBKKK", prediksi_pasangan: "Bx1 Kx2 Kx5 Kx11 Bx23 Bx49 Bx102 Kx210 Kx437", catatan: "pasangan terjauh biasanya di Kx210" },
       { sebelumnya: "BKBBB", prediksi_pasangan: "Kx1 Bx2 Bx5 Bx11 Kx23 Kx49 Kx102 Bx210 Bx437", catatan: "pasangan terjauh biasanya di Kx210" },
-      { sebelumnya: "KBBKK", prediksi_pasangan: "Bx1 Kx2 Kx5 Kx11 Bx23 Bx49 Bx102 Kx210 Kx437", catatan: "pasangan terjauh biasanya di Bx314" },
+      { sebelumnya: "KBBKK", prediksi_pasangan: "Bx1 Kx2 Kx5 Kx11 Bx23 Bx49 Bx102 Kx210 Kx437", catatan: "pasangan terjauh biasanya di Bx102" },
       { sebelumnya: "BKKBB", prediksi_pasangan: "Kx1 Bx2 Bx5 Bx11 Kx23 Kx49 Kx102 Bx210 Bx437", catatan: "pasangan terjauh biasanya di Kx102" },
       { sebelumnya: "KBBBK", prediksi_pasangan: "Bx1 Kx2 Kx5 Kx11 Bx23 Bx49 Bx102 Kx210 Kx437", catatan: "pasangan terjauh biasanya di Kx437" },
       { sebelumnya: "BKKKB", prediksi_pasangan: "Kx1 Bx2 Bx5 Bx11 Kx23 Kx49 Kx102 Bx210 Bx437", catatan: "pasangan terjauh biasanya di Bx437" },
