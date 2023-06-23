@@ -9,6 +9,20 @@ function verifikasiPassword() {
       "http://170.33.96.215:55/#/register?r_code=ClEgG1195363";
   }
 }
+
+function toggleText() {
+    var text = document.getElementById("text");
+    var toggleButton = document.getElementById("toggleButton");
+
+    if (text.style.display === "none") {
+        text.style.display = "block";
+        toggleButton.innerHTML = "Sembunyikan";
+       } else {
+        text.style.display = "none";
+        toggleButton.innerHTML = "Tampilkan";
+        }
+       }
+
     var data = [
       { sebelumnya: "KKKKK", prediksi_pasangan: "Bx1 Kx2 Kx5 Kx11 Bx23 Bx49 Bx102 Kx210 Kx437", catatan: "pasangan terjauh biasanya di Kx210" },
       { sebelumnya: "BBBBB", prediksi_pasangan: "Kx1 Bx2 Bx5 Bx11 Kx23 Kx49 Kx102 Bx210 Bx437", catatan: "pasangan terjauh biasanya di Bx210" },
