@@ -105,6 +105,11 @@ body {
       padding: 0 20px;
       margin-bottom: 20px;
     }
-    #text {
-            display: none;
-        }
+
+  #toggleButton {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    text-align: center;
+  }
+
