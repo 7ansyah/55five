@@ -6,11 +6,15 @@ body {
   padding: 0;
 }
 
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-}
+.container > div {
+      flex: 1 1 calc(50% - 20px);
+      margin-right: 20px;
+      margin-bottom: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      padding: 20px;
+    }
 
 .content {
   background-color: #fff;
