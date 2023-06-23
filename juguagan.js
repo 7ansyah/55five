@@ -11,7 +11,7 @@ function verifikasiPassword() {
 }
 
 function toggleText() {
-    var text = document.getElementById("text");
+    var text = document.getElementById("mytext");
     var toggleButton = document.getElementById("toggleButton");
 
     if (text.style.display === "none") {
