@@ -98,7 +98,7 @@ body {
 
   #toggleButton {
     display: block;
-    margin: 0 auto;
+    margin: 1px 3px 1px 3px;
     width: auto;
     text-align: center;
   }
