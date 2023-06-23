@@ -31,10 +31,11 @@ body {
     }
 
     p {
+      text-align: center;
       font-size: 16px;
       line-height: 1.5;
       margin: 10px 0;
-      padding: 0 20px;
+      padding: 0 5px;
     }
 
     a {
@@ -66,24 +67,29 @@ body {
       border: 1px solid #ddd;
       border-radius: 4px;
       font-size: 16px;
+      text-align: center;
       margin-bottom: 10px;
     }
 
 
-    button {
+    .button1 {
       background-color: #4caf50;
       color: #fff;
-      border: none;
       border-radius: 4px;
-      padding: 12px 16px;
+      padding: 10px 25px;
       font-size: 16px;
-      cursor: pointer;
-      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+      margin: auto;
     }
 
-    button:hover {
-      background-color: #45a049;
+    .button1:hover {
+      background-color: #ffa049;
     }
+    
+    
 
     .disclaimer {
       font-style: italic;
@@ -95,11 +101,19 @@ body {
    #myText {
       display: none;
     }
-
+    
+    
   #toggleButton {
-    display: block;
-    margin: 1px 3px 1px 3px;
+    background-color: #FF0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: auto;
-    text-align: center;
+    margin: auto;
   }
-
+  
+  .button2 {
+      padding: 1px 3px;
+      font-size: 8px;
+      
+    }
