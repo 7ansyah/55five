@@ -19,7 +19,7 @@ function toggleText() {
         toggleButton.innerHTML = "Sembunyikan";
        } else {
         text.style.display = "none";
-        toggleButton.innerHTML = "Tampilkan";
+        toggleButton.innerHTML = "Disclaimer";
         }
        }
 
