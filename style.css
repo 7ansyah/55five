@@ -79,6 +79,9 @@ body {
       cursor: pointer;
       width: 100%;
     }
+    button1:hover {
+      background-color: #FF0000;
+    }
 
 
     button {
