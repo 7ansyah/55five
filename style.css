@@ -21,9 +21,14 @@ body {
 
     h1 {
       margin-top: 20px;
-      margin-bottom: 8px;
       text-align: center;
       font-size: 14px;
+    }
+
+    h5 {
+      margin-top: 8px;
+      text-align: center;
+      font-size: 10px;
     }
 
     h6 {
