@@ -47,7 +47,7 @@
 
 .text {
   position: absolute;
-  animation: rainbow 5s linear infinite, slide 10s linear infinite;
+  animation: rainbow 10s linear infinite, slide 10s linear infinite;
   white-space: nowrap;
   font-size: 19.3px;
   line-height: 23px; /* Sesuaikan dengan tinggi kotak */
