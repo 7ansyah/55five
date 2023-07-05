@@ -1,3 +1,65 @@
+@keyframes rainbow {
+  0% { color: red; }
+  10% { color: orange; }
+  20% { color: yellow; }
+  30% { color: green; }
+  40% { color: blue; }
+  50% { color: indigo; }
+  60% { color: violet; }
+  70% { color: purple; }
+  80% { color: pink; }
+  90% { color: cyan; }
+  100% { color: red; }
+}
+
+
+@keyframes rainbow2 {
+  
+  0% { color: gray;}
+  20% { color: blue;}
+  40% { color: cyan; }
+  60% { color: gray;}
+  80% { color: cyan; }
+  100% { color: gray;}
+  
+}
+
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.container1 {
+  position: relative;
+  overflow: hidden;
+  width: 400px; /* Ubah lebar sesuai kebutuhan Anda */
+  height: 30px; /* Ubah tinggi sesuai kebutuhan Anda */
+  border: 1px solid #ccc; /* Hapus jika tidak diperlukan */
+}
+
+.text {
+  position: absolute;
+  animation: rainbow 5s linear infinite, slide 10s linear infinite;
+  white-space: nowrap;
+  font-size: 19.3px;
+  line-height: 23px; /* Sesuaikan dengan tinggi kotak */
+}
+
+a {
+  animation: rainbow2 3s linear infinite;
+  white-space: nowrap;
+  font-size: 12px;
+  
+}
+
 body {
       font-family: Arial, sans-serif;
       background-color: #f5f5f5;
@@ -32,13 +94,13 @@ body {
     }
 
     h6 {
-      margin-top: 20px;
+      margin-top: 4px;
       text-align: center;
       font-size: 10px;
     }
 
     hr {
-      margin: 20px 0;
+      margin-top: 4px;
       border: none;
       border-top: 1px solid #ddd;
     }
@@ -51,10 +113,7 @@ body {
       padding: 0 5px;
     }
 
-    a {
-      color: #4caf50;
-      text-decoration: none;
-    }
+    
 
     .container {
       display: flex;
